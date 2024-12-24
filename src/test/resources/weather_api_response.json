@@ -1,0 +1,48 @@
+{
+  "coord": {
+    "lon": -77.0177,
+    "lat": 38.9122
+  },
+  "weather": [
+    {
+      "id": 500,
+      "main": "Rain",
+      "description": "light rain",
+      "icon": "10d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 4.17,
+    "feels_like": 1.09,
+    "temp_min": 2.86,
+    "temp_max": 5.86,
+    "pressure": 1025,
+    "humidity": 71,
+    "sea_level": 1025,
+    "grnd_level": 1022
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.6,
+    "deg": 170
+  },
+  "rain": {
+    "1h": 0.25
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1735067695,
+  "sys": {
+    "type": 2,
+    "id": 2002287,
+    "country": "US",
+    "sunrise": 1735043082,
+    "sunset": 1735077058
+  },
+  "timezone": -18000,
+  "id": 0,
+  "name": "Washington",
+  "cod": 200
+}
