@@ -1,6 +1,7 @@
 package com.mir.weather.service;
 
-import static com.mir.weather.exception.bo.MessageCode.*;
+import static com.mir.weather.exception.bo.MessageCode.INACTIVE_USER;
+import static com.mir.weather.exception.bo.MessageCode.INVALID_ZIP;
 
 import com.mir.weather.client.WeatherClient;
 import com.mir.weather.client.dto.WeatherData;
@@ -12,7 +13,6 @@ import com.mir.weather.repository.WeatherRepository;
 import com.mir.weather.util.UserUtil;
 import com.mir.weather.util.ZipCodeUtil;
 import java.io.IOException;
-import java.net.URISyntaxException;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
